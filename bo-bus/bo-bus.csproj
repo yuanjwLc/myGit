@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyName>Inspur.GS.Back.Ser.bus</AssemblyName>
+    <RootNamespace>Inspur.GS.Back.Ser.bus</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <MetadataProject Include="nothing">
+      <ID>37369139-b8f3-4089-9a27-6ae8da924b01</ID>
+      <Name>bo-bus</Name>
+      <NameSpace>Inspur.GS.Back.Ser.bus</NameSpace>
+      <MetadataPackageInfo>
+        <Name>Inspur.GS.Back.Ser.bus</Name>
+        <Version>1.0.0</Version>
+      </MetadataPackageInfo>
+      <MetadataPackageRefs />
+    </MetadataProject>
+  </ItemGroup>
+</Project>
